@@ -1,0 +1,159 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    background-color: #059c0d;
+
+}
+
+.historia {
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+
+.actividad {
+    max-width: 120rem;
+    margin: auto;
+}
+
+.imagen {
+    width: 280px;
+    height: auto;
+}
+
+h1 {
+    font-size: 5rem;
+    text-shadow: 0 0 8px;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+
+.header h1 {
+    font-weight: lighter;
+}
+
+.header span {
+    font-weight: bold;
+}
+
+.portada {
+    display: block;
+}
+
+
+
+.barra {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.barra {
+    list-style-type: none;
+    text-align: center;
+    font-size: 0;
+}
+
+.barra>ul li {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    background: #f2deef;
+}
+
+.barra li a {
+    display: block;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #333;
+    box-shadow: 0 0 5px blue;
+}
+
+.barra li:hover a {
+    background: #333;
+    color: #ffffff;
+}
+
+.barra li ul {
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+}
+
+.barra li:hover ul {
+    width: 100%;
+    margin: 0 -4rem -4rem -4rem;
+    padding: 0 4rem 4rem 4rem;
+
+}
+
+.barra li li {
+    display: block;
+    width: 100%;
+}
+
+.barra li:hover li a {
+    font-size: 2rem;
+    line-height: 2rem;
+    border-top: 1px solid #e5e5e5;
+    background: hsla(12, 22%, 26%, 0.46);
+    padding: 4rem;
+
+}
+
+.barra li li a:hover {
+    background: hsla(9, 22%, 18%, 0.542);
+    ;
+}
+
+
+.main {
+    background-color: #5dbd62;
+    text-align: center;
+}
+
+
+.footer .redes {
+    text-align: center;
+}
+
+.footer .redes a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.footer .texto {
+    text-align: center;
+}

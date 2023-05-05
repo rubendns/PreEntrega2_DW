@@ -42,11 +42,7 @@ body {
 }
 
 .foto1{
-<<<<<<< HEAD
-    background-image: url(im);
-=======
-    background-image: url(img/foto1.jpg);
->>>>>>> 496db807c68e3b9a59c586e5bd1b29629950c256
+    background-image: url(../img/foto1.jpg);
     /* grid-column: 1/2;
     grid-row: 1/3; */
 }

@@ -42,7 +42,7 @@ body {
 }
 
 .foto1{
-    background-image: url(/img/foto1.jpg);
+    background-image: url(img/foto1.jpg);
     /* grid-column: 1/2;
     grid-row: 1/3; */
 }
